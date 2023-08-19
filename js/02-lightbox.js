@@ -24,5 +24,5 @@ galleryContainer.insertAdjacentHTML("beforeend", galleryCardMarkup);
 const lightbox = new SimpleLightbox(".gallery a", {
   caption: true,
   captionsData: "alt",
-  captionDelay: 100,
+  captionDelay: 250,
 });
